@@ -1,3 +1,5 @@
+require 'pry'
+
 class Activity
 
   attr_reader :name,
@@ -9,8 +11,14 @@ class Activity
   end
 
   def add_participant(participant, cost)
-    @participants[participant] = cost 
+    @participants[participant] = cost
   end
+
+  def total_cost
+    @participants.values.sum
+  end
+
+
 
 
 
