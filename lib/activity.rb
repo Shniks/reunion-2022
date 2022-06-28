@@ -8,6 +8,10 @@ class Activity
     @participants = {}
   end
 
+  def add_participant(participant, cost)
+    @participants[participant] = cost 
+  end
+
 
 
 
