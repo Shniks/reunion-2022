@@ -1,9 +1,11 @@
 class Activity
 
-  attr_reader :activity 
+  attr_reader :name,
+              :participants
 
   def initialize(activity)
-    @activity = activity
+    @name = activity
+    @participants = {}
   end
 
 

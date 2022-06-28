@@ -11,7 +11,14 @@ class ActivityTest < Minitest::Test
     activity = Activity.new("Brunch")
 
     assert_instance_of Activity, activity
-  end 
+  end
+
+  def test_if_it_has_attributes
+    activity = Activity.new("Brunch")
+
+    assert_equal "Brunch", activity.name
+    assert_instance_of Hash, activity.participants
+  end
 
 
 
