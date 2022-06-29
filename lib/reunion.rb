@@ -1,4 +1,5 @@
 require 'pry'
+require './lib/activity'
 
 class Reunion
   attr_reader :name,
@@ -9,8 +10,8 @@ class Reunion
     @activities = []
   end
 
-
-
-
+  def add_activity(activity)
+    activities << activity
+  end
 
 end
