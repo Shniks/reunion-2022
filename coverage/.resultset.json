@@ -50,6 +50,19 @@
           null,
           1,
           null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
           null,
           null,
           null,
@@ -58,10 +71,25 @@
       },
       "/Users/lihkin/coding/ruby/practice/reunion-2022/lib/reunion.rb": {
         "lines": [
-
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       }
     },
-    "timestamp": 1656504902
+    "timestamp": 1656505110
   }
 }
