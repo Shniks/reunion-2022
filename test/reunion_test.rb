@@ -29,4 +29,5 @@ class ReunionTest < Minitest::Test
     assert_equal [activity_1], reunion.activities
   end
 
+
 end

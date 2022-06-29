@@ -14,4 +14,5 @@ class Reunion
     activities << activity
   end
 
+
 end
