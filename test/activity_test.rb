@@ -56,5 +56,4 @@ class ActivityTest < Minitest::Test
     assert_equal ({"Maria" => 10, "Luther" => -10}), activity.owed
   end
 
-
 end

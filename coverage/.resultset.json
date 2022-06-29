@@ -38,8 +38,30 @@
           null,
           null
         ]
+      },
+      "/Users/lihkin/coding/ruby/practice/reunion-2022/test/reunion_test.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/lihkin/coding/ruby/practice/reunion-2022/lib/reunion.rb": {
+        "lines": [
+
+        ]
       }
     },
-    "timestamp": 1656504430
+    "timestamp": 1656504902
   }
 }
