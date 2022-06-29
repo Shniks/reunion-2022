@@ -18,9 +18,8 @@ class Activity
     @participants.values.sum
   end
 
-
-
-
-
+  def split
+    total_cost / @participants.keys.count
+  end
 
 end
