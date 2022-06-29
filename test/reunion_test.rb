@@ -81,7 +81,7 @@ class ReunionTest < Minitest::Test
     activity_2.add_participant("Louis", 0)
     reunion.add_activity(activity_2)
 
-    assert_equal "Maria: -10\nLuther: -30\nLouis: 40", reunion.summary
+    assert_equal "Maria: -10\nLuther: -30\nLouis: 40\n", reunion.summary
   end
 
 end

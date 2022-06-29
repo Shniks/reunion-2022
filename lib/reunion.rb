@@ -35,5 +35,10 @@ class Reunion
     end
   end
 
+  def summary
+    breakout.reduce("") do |summary, participant|
+      summary + "#{participant[0]}: #{participant[1]}\n"
+    end
+  end
 
 end
